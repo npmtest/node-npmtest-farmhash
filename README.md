@@ -1,4 +1,7 @@
-# test coverage for  [farmhash (v1.2.1)](https://github.com/lovell/farmhash#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-farmhash.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-farmhash) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-farmhash.svg)](https://travis-ci.org/npmtest/node-npmtest-farmhash)
+# npmtest-farmhash
+
+#### basic test-coverage for  [farmhash (v1.2.1)](https://github.com/lovell/farmhash#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-farmhash.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-farmhash) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-farmhash.svg)](https://travis-ci.org/npmtest/node-npmtest-farmhash)
+
 #### Node.js implementation of FarmHash, Google's family of very fast hash functions
 
 [![NPM](https://nodei.co/npm/farmhash.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/farmhash)
@@ -87,7 +90,8 @@
         "install": "node-gyp rebuild",
         "test": "node test/unit"
     },
-    "version": "1.2.1"
+    "version": "1.2.1",
+    "bin": {}
 }
 ```
 
